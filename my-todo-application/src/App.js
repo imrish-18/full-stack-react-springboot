@@ -3,6 +3,7 @@ import './App.css';
 import { Component } from 'react';
 import FirstComponent from './components/learning-examples/FirstComponent'
 import Counter from './components/counter/Counter'
+import TodoApp from './components/todo/TodoApp'
 // any java script file is known as module 
 
 class App extends Component {
@@ -24,12 +25,13 @@ class App extends Component {
                         Learn React
                     </a>
                 </header>*/}
-                my todo app
+               {/* my todo app
                 <FirstComponent>
                 </FirstComponent>
                 <SecondComponent>
                 </SecondComponent>
-                <Counter ></Counter>
+                <Counter ></Counter>*/}
+                <TodoApp></TodoApp>
             </div>
         );
     }
